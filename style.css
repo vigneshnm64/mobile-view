@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+.logo img {
+    padding: 30px;
+}
+
+.logo-img {
+    width: 180px;
+}
+
+.lady {
+    width: 100%;
+}
+
+.lady-img {
+    width: 100%;
+}
+
+.coming-soon {
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 50px;
+}
+
+.we {
+    color: hsl(0, 36%, 70%);
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+.coming {
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+
+.short-desc {
+    padding: 30px;
+    text-align: center;
+    color: hsl(0, 36%, 70%);
+}
+
+.email-input {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+
+.email-input input {
+    padding: 15px;
+    border-radius: 40px;
+    width: 100%;
+    border: 1px solid hsl(0, 80%, 86%);
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    outline: none;
+}
+
+.email-input input::placeholder{
+    content: "";
+    color: hsl(0, 80%, 86%);
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 20px;
+}
+
+.email-input .arrow-btn {
+    width: 80px;
+    border-radius: 40px;
+    position: absolute;
+    right: 30px;
+    border: none;
+    color: white;
+    font-size: 2.1rem;
+    font-weight: 300;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 18px;
+}
+
+/* .sections, .section-one, .desk-logo, .desk-logo-img, .desk-coming-soon, .desk-we, .desk-coming, .desk-short-desc, .desk-email-input, .desk-arrow-btn, .section-two {
+    display: none;
+} */
+
+@media screen and (max-width: 768px) {
+    .sections, .section-one, .desk-logo, .desk-logo-img, .desk-coming-soon, .desk-we, .desk-coming, .desk-short-desc, .desk-email-input, .desk-arrow-btn, .section-two {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .sections, .section-one, .desk-logo, .desk-logo-img, .desk-coming-soon, .desk-we, .desk-coming, .desk-short-desc, .desk-email-input, .desk-arrow-btn, .section-two {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo, .logo-img, .lady, .lady-img, .coming-soon, .we, .coming, .short-desc, .email-input, .arrow-btn {
+        display: none;
+    }
+
+    .sections {
+        max-height: 100vh;
+    }
+
+    .section-one {
+        max-width: 50%;
+        float: left;
+        padding: 60px 120px;
+    }
+
+    .section-two {
+        max-width: 50%;
+        float: right;
+    }
+
+    .desk-coming-soon {
+        width: 100%;
+        margin-top: 120px;
+        font-size: 3rem;
+        line-height: 55px;
+    }
+
+    .desk-we {
+        color: hsl(0, 36%, 70%);
+        font-weight: 100;
+        letter-spacing: 10px;
+    }
+
+    .desk-coming {
+        font-weight: 600;
+        letter-spacing: 10px;
+    }
+
+    .desk-short-desc {
+        color: hsl(0, 36%, 70%);
+        margin-top: 30px;
+        line-height: 30px;
+    }
+
+    .desk-email-input {
+        width: 100%;
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    .desk-email-input input {
+        padding: 20px 30px;
+        border-radius: 40px;
+        width: 100%;
+        border: 1px solid hsl(0, 80%, 86%);
+        background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+        outline: none;
+    }
+    
+    .desk-email-input input::placeholder{
+        content: "";
+        color: hsl(0, 80%, 86%);
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    .desk-email-input .desk-arrow-btn {
+        width: 80px;
+        border-radius: 40px;
+        position: absolute;
+        left: 475px;
+        border: none;
+        color: white;
+        font-size: 2.1rem;
+        font-weight: 300;
+        background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 18px;
+        cursor: pointer;
+    }
+}
+
+ @media screen and (max-width: 375px) {
+    .logo img {
+        padding: 30px;
+    }
+
+    .logo-img {
+        width: 180px;
+    }
+
+    .lady-img {
+        width: 100%;
+    }
+
+    .coming-soon {
+        width: 100%;
+        margin-top: 60px;
+        text-align: center;
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    .we {
+        color: hsl(0, 36%, 70%);
+        font-weight: 100;
+        letter-spacing: 10px;
+    }
+
+    .coming {
+        font-weight: 600;
+        letter-spacing: 10px;
+    }
+
+    .short-desc {
+        padding: 30px;
+        text-align: center;
+        color: hsl(0, 36%, 70%);
+    }
+
+    .email-input {
+        width: 100%;
+        text-align: center;
+        padding: 30px;
+        padding-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .email-input input {
+        padding: 15px;
+        border-radius: 40px;
+        width: 100%;
+        border: 1px solid hsl(0, 80%, 86%);
+        background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    }
+
+    .email-input input::placeholder{
+        content: "";
+        color: hsl(0, 80%, 86%);
+        font-family: 'Josefin Sans', sans-serif;
+        margin-left: 20px;
+    }
+
+    .email-input .arrow-btn {
+        width: 80px;
+        border-radius: 40px;
+        position: absolute;
+        right: 30px;
+        border: none;
+        color: white;
+        font-size: 2.1rem;
+        font-weight: 300;
+        background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 18px;
+    }
+} 
